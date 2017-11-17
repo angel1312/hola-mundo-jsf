@@ -7,11 +7,13 @@
     </h:head>
     <h:body>
         <br>
-        <h:outputLabel value="Nombre " />
-        <h:outputLabel value="#{managedBean.cliente.nombre}"/>
+            <h:outputLabel value="Nombre " />
+            <h:outputLabel value="#{managedBean.cliente.nombre}"/>
         </br>
         <h:outputLabel value="Contrato " />
         <h:outputLabel value="#{managedBean.cliente.contrato}"/>
+        <br />
+        <h:link outcome="welcomePrimefaces" value="Primefaces welcome page" />
     </h:body>
 </html>
 
